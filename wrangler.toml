@@ -8,33 +8,33 @@ compatibility_date = "2024-01-01"
 workers_dev = false
 [vars]
 #修改为你的xget服务地址
-BASE_URL = "https://xget.domain.com"
+BASE_URL = "https://xget.icloudnote.cn"
 
 
 [env.dev.vars]
 #修改为你的xget服务地址
-BASE_URL = "https://xget.domain.com"
+BASE_URL = "https://xget.icloudnote.cn"
 
 [env.dev]
 name = "xget-web-dev"
 # dev环境域名配置,修改为你自己的域名
-route = { pattern = "xget-dev.domain.com", custom_domain = true }
+route = { pattern = "xget-dev.icloudnote.cn", custom_domain = true }
 
 
 #production环境配置
 [env.production.vars]
 #修改为你的xget服务地址
-BASE_URL = "https://xget.domain.com"
+BASE_URL = "https://xget.icloudnote.cn"
 [env.production]
 name = "xget-web"
 # 生产环境子域名配置,修改为你自己的域名
-route = { pattern = "xget-web.domain.com", custom_domain = true }
+route = { pattern = "xget-web.icloudnote.cn", custom_domain = true }
 
 #staging环境配置
 [env.staging.vars]
 #修改为你的xget服务地址
-BASE_URL = "https://xget.domain.com"
+BASE_URL = "https://xget.icloudnote.cn"
 [env.staging]
 name = "xget-web-staging"
 # staging环境子域名配置，修改为你自己的域名
-route = { pattern = "staging.xget-web.domain.com", custom_domain = true }
+route = { pattern = "staging.xget-web.icloudnote.cn", custom_domain = true }
